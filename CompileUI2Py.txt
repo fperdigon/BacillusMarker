@@ -1,0 +1,5 @@
+pyside-rcc -py2 -o resources.py resources.qrc
+
+python -m compileall
+
+pyside-uic BM_UI.ui -o BM_UI.py
